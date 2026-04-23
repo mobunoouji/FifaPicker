@@ -1,0 +1,29 @@
+<h2>Club Selection</h2>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<form method="POST">
+    <button type="submit">Generate Club</button>
+</form>
+
+{% if hasil %}
+<div class="club-result">
+    <div class="club">
+        <img src="{{ url_for('static', filename='logos/' + hasil[0]['logo']) }}" alt="{{ hasil[0]['name'] }}" width="120">
+        <p><strong>Player 1:</strong> {{ hasil[0]['name'] }}</p>
+    </div>
+    
+    <div class="vs">VS</div>
+    
+    <div class="club">
+        <img src="{{ url_for('static', filename='logos/' + hasil[1]['logo']) }}" alt="{{ hasil[1]['name'] }}" width="120">
+        <p><strong>Player 2:</strong> {{ hasil[1]['name'] }}</p>
+    </div>
+</div>
+{% endif %}
+
+<div class="credit">
+  <img src="{{ url_for('static', filename='cind.png') }}" alt="logo" class="credit-img">
+  <span>@モブノ王子</span>
+</div>
+
+<a href="/">Back to Menu</a>

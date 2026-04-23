@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>FIFA Picker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    ul {
+      list-style: none;   
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Menu</h1>
+
+  <ul>
+    <li><a href="/club">Club</a></li>
+    <li><a href="/player">Player</a></li>
+    <li><a href="/pemain_posisi">Player (1)</a></li>
+    <li><a href="/formasi">Formation</a></li>
+  </ul>
+
+<div class="credit">
+  <img src="{{ url_for('static', filename='cind.png') }}" alt="logo" class="credit-img">
+  <span>@モブノ王子</span>
+</div>

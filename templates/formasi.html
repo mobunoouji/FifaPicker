@@ -1,0 +1,13 @@
+<h2>Formation Choose</h2>
+<title>Formation Choose</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<form method="POST"><button type="submit">Generate</button></form>
+{% if hasil %}
+<p>Player 1: {{ hasil["Player 1"] }}</p>
+<p>Player 2: {{ hasil["Player 2"] }}</p>
+{% endif %}
+<a href="/">Back to Menu</a>
+<div class="credit">
+  <img src="{{ url_for('static', filename='cind.png') }}" alt="logo" class="credit-img">
+  <span>@モブノ王子</span>
+</div>

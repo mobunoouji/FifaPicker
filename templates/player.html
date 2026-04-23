@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Player Choose</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>Player Choose</h2>
+
+  <form method="POST">
+    <label for="formasi1">Player 1 Formation:</label>
+    <select name="formasi1" id="formasi1">
+      {% for f in formasi_list %}
+        <option value="{{ f }}">{{ f }}</option>
+      {% endfor %}
+    </select>
+    <br><br>
+
+    <label for="formasi2">Player 2 Formation:</label>
+    <select name="formasi2" id="formasi2">
+      {% for f in formasi_list %}
+        <option value="{{ f }}">{{ f }}</option>
+      {% endfor %}
+    </select>
+    <br><br>
+
+    <div class="button-row">
+      <a href="/" class="btn-left">Back to Menu</a>
+      <button type="submit" class="btn-right">Generate</button>
+    </div>
+  </form>
+
+  {% if hasil %}
+    <div class="result-container">
+      <div class="result">
+        <h3>Player 1</h3>
+        {% for pos, p in hasil["Player 1"] %}
+          <p>{{ pos }}: {{ p }}</p>
+        {% endfor %}
+      </div>
+
+      <div class="result">
+        <h3>Player 2</h3>
+        {% for pos, p in hasil["Player 2"] %}
+          <p>{{ pos }}: {{ p }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</body>
+</html>
+<div class="credit">
+  <img src="{{ url_for('static', filename='cind.png') }}" alt="logo" class="credit-img">
+  <span>@モブノ王子</span>
+</div>
