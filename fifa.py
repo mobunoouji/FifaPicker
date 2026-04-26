@@ -225,14 +225,12 @@ def pilih_club():
 
 # Satukan semua data pendukung di satu tempat (atau pastikan sudah ada di atas)
 club_logos = {
+    # inggris
     "Liverpool": "Liverpool.png",
     "Manchester City": "City.png",
     "Manchester United": "MU.png",
     "Chelsea": "Chelsea.png",
     "Arsenal": "Arsenal.png",
-    "Barcelona": "Barcelona.png",
-    "Real Madrid": "RM.png",
-    "PSG": "PSG.png",
     "Tottenham Hotspur" : "tottenham.png",
     "Aston Villa" : "aston.png",
     "Newcastle United" : "newcastle.png",
@@ -241,6 +239,9 @@ club_logos = {
     "Nottingham Forest" : "forest.png",
     "Crystal Palace" : "palace.png",
     "Brighton & Hove Albion" : "albion.png",
+    # spain 
+    "Barcelona": "Barcelona.png",
+    "Real Madrid": "RM.png",
     "Atletico Madrid" : "atletico.png",
     "Sevilla" : "sevilla.png",
     "Valencia" : "valencia.png",
@@ -248,12 +249,15 @@ club_logos = {
     "Real Sociedad" : "sociedad.png",
     "Athletic Bilbao" : "bilbao.png",
     "Real Betis" : "betis.png",
+    # itali
     "Juventus" : "juventus.png",
     "Inter Milan" : "inter.png",
     "AC Milan" : "AC.png",
     "AS Roma" : "roma.png",
     "Napoli" : "napoli.png",
     "Lazio" : "lazio.png",
+    # germany
+    "PSG": "PSG.png",
     "Bayern Munich" : "bayern.png",
     "Borussia Dortmund" : "dortmund.png",
     "RB Leipzig" : "leipizig.png",
@@ -266,9 +270,13 @@ club_logos = {
     "Benfica" : "benfica.png", 
     "Porto" : "porto.png",
     # Belanda
-    "Ajax", "PSV Eindhoven", "Feyenoord",
+    "Ajax" : "ajax.png", 
+    "PSV Eindhoven" : "psv.png", 
+    "Feyenoord" : "feyenoord.png",
     # Turki
-    "Galatasaray", "Fenerbahce", "Besiktas"
+    "Galatasaray" : "galatasaray.png", 
+    "Fenerbahce" : "fenerbahce.png", 
+    "Besiktas" : "besiktas.png"
     # Tambahkan yang lain di sini...
 }
 
