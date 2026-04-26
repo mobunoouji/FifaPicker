@@ -233,6 +233,21 @@ club_logos = {
     "Barcelona": "Barcelona.png",
     "Real Madrid": "RM.png",
     "PSG": "PSG.png",
+    "Tottenham Hotspur" : "tottenham.png",
+    "Aston Villa" : "aston.png",
+    "Newcastle United" : "newcastle.png",
+    "Everton" : "everton.png",
+    "Leicester City" : "leicester.png",
+    "Nottingham Forest" : "forest.png",
+    "Crystal Palace" : "palace.png",
+    "Brighton & Hove Albion" : "albion.png",
+    "Atletico Madrid" : "atletico.png",
+    "Sevilla" : "sevilla.png",
+    "Valencia" : "valencia.png",
+    "Villarreal" : "villareal.png",
+    "Real Sociedad" : "sociedad.png",
+    "Athletic Bilbao" : "bilbao.png",
+    "Real Betis" : "betis.png",
     # Tambahkan yang lain di sini...
 }
 
