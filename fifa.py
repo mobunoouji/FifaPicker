@@ -258,6 +258,17 @@ club_logos = {
     "Borussia Dortmund" : "dortmund.png",
     "RB Leipzig" : "leipizig.png",
     "Bayer Leverkusen" : "leverkusen.png",
+    "Olympique Lyon" : "lyon.png",
+    "Marseille" : "marseille.png", 
+    "Monaco" : "monaco.png",
+    # Portugal
+    "Sporting CP" : "sporting.png",
+    "Benfica" : "benfica.png", 
+    "Porto" : "porto.png",
+    # Belanda
+    "Ajax", "PSV Eindhoven", "Feyenoord",
+    # Turki
+    "Galatasaray", "Fenerbahce", "Besiktas"
     # Tambahkan yang lain di sini...
 }
 
