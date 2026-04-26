@@ -248,6 +248,16 @@ club_logos = {
     "Real Sociedad" : "sociedad.png",
     "Athletic Bilbao" : "bilbao.png",
     "Real Betis" : "betis.png",
+    "Juventus" : "juventus.png",
+    "Inter Milan" : "inter.png",
+    "AC Milan" : "AC.png",
+    "AS Roma" : "roma.png",
+    "Napoli" : "napoli.png",
+    "Lazio" : "lazio.png",
+    "Bayern Munich" : "bayern.png",
+    "Borussia Dortmund" : "dortmund.png",
+    "RB Leipzig" : "leipizig.png",
+    "Bayer Leverkusen" : "leverkusen.png",
     # Tambahkan yang lain di sini...
 }
 
